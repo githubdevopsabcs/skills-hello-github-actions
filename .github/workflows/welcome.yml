@@ -4,3 +4,7 @@ on:
     types: [openend]
 permissions:
   pull-requests: write
+jobs:
+  build:
+   name: post welcome comment
+   runs-on: ubuntu-latest
