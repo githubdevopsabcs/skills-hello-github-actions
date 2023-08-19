@@ -1,7 +1,7 @@
 name: post welcom comment
 on:
   pull_request:
-    types: [openend]
+  #  types: [openend]
   workflow_dispatch:
 permissions:
   pull-requests: write
